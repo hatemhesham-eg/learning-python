@@ -1,0 +1,20 @@
+
+
+import math
+
+num = float(input("Enter a number: "))
+
+# فردي أو زوجي
+if num % 2 == 0:
+    print("The number is even.")
+else:
+    print("The number is odd.")
+
+# موجب أو سالب أو صفر
+if num > 0:
+    print("The number is positive.")
+    print(f"Its square root is: {math.sqrt(num)}")
+elif num < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
